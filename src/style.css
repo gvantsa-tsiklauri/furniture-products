@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+.title {
+    font-family: Arial;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.title-div {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+}
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 40px;
+    }
+    .navbar {
+        font-size: 18px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+   
+}
+
+@media only screen and (max-width: 992px){
+    .cols {
+        margin-bottom: 40px !important;
+    }
+    .image {
+        max-width: 85%;
+    }
+}
+.cols {
+    margin-bottom: 0;
+}
+.navbar {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #4B4B4B80;
+    text-decoration: none;
+    padding-left: 27px;
+    padding-right: 27px;
+    text-transform: capitalize;
+}
+.navbar:hover, .active{
+    color: #2b2929;
+}
+
+
+.container {
+    width: 95%;
+    max-width: 400px;
+    height: 420px;
+    border-bottom-left-radius: 50px;
+    background-color: #FAF4EF;
+    
+}
+.main {
+    width: 100%;
+    max-width: 1440px;
+}
+.object-title {
+    margin-left: 10%;
+    margin-top: 40px;
+    font-family: Serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #4B4B4B;
+}
+
+.object-price {
+    margin-left: 10%;
+    font-family: Serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #4B4B4B;
+}
+
+.img {
+    top: 40%;
+    position: absolute;
+}
+
+
+.image {
+    width: auto;
+}
